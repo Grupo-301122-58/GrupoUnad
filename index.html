@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+        <!--  CSS -->
+        <style>
+          .dropdown:hover>.dropdown-menu {
+          display: block;
+          }
+      </style>
+  
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <title>Grupo: Diseño de Sitios WEB UNAD</title>
@@ -13,82 +20,134 @@
     <title>Grupo: Diseño de Sitios WEB UNAD 2018</title>
   </head>
   <body >
-        <!-- cabecera Boton -->
-        
-<div class="container-fluid nav">
-    <div class="container align-content-between">
+        <!-- cabecera Imagen unad *** Boton acceso -->
+<div class="container">
       <nav class="nav" >
-        <div class="row">
-          <div class="col-sm-6 col-md-6 col-lg-6">
+        <div class="row ">
+          <div class="col-sm-12 col-md-6 col-lg-6 ">
             <ul class="nav">
             <li class="nav-item">
-            <a href="https://www.unad.edu.co/" type="submit" ><img src="img/logo2.png" class="img-fluid w-75  h-100" ></a>
+            <a href="https://www.unad.edu.co/"  ><img src="img/logo2.png" class="img-fluid w-75  h-100" ></a>
             </li>
             </ul>
           </div>
           <!--  -->
-          <div class="col-sm-6 col-md-6 col-lg-6" >
+          <div class="col-sm-12 col-md-6 col-lg-6" >
             <ul class="nav pt-3  ">
             <li class=" nav-item ">
-            <a class=" nav-link btn-info rounded"  href="https://campus0b.unad.edu.co/campus0/login/index.php" type="submit" >Acceso a Campus Virtual </a> 
+            <a class=" nav-link btn-info  "  href="https://campus0b.unad.edu.co/campus0/login/index.php" target="_blank" type="submit" >Acceso a Campus Virtual </a> 
             </li>
             </ul>
           </div>
         </div>
       </nav>
-    </div>
 </div>
     
-      <!-- conenido fluid -->
+      <!-- conenido Cabecera  -->
   <div class="container-fluid bg-warning py-4">
       <div class ="container ">
-      <h1 class="display-3 font-italic"><b>DISEÑOS DE SITIOS WEB GRUPO 2018</b></h1>
-      <p class="text-justify mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi voluptas doloribus incidunt nesciunt dolorem tempora, facere accusamus cupiditate optio exercitationem totam nihil adipisci alias nulla eligendi sequi, sunt odio vitae. Tenetur ipsum veritatis nemo quos, aut, perferendis sint repudiandae eius deleniti exercitationem voluptates. Praesentium animi ad id, architecto nesciunt culpa.</p>
+      <h4 class="display-3 font-italic"><b>DISEÑOS DE SITIOS WEB </b></h4>
+      <p class="text-justify mx-4"> <b>E</b>s una actividad que consiste en la planificación, diseño, implementación y mantenimiento de sitios web. No es simplemente la implementación del diseño convencional ya que se abarcan diferentes aspectos como el diseño gráfico web, diseño de interfaz y experiencia de usuario, como la navegabilidad, interactividad, usabilidad, arquitectura de la información.</p>
       </div>
   </div>    
 
   <!-- menu nav  -->
-<div class="container-fluid bg-danger ">
-    <div class=" container">
-      <nav class="  navbar-expand-md " >
-          <div class="nav nav-tabs " id="nav-tab" role="tablist">
-            <a class="nav-item nav-link active badge-secondary" href="index.html">Inicio</a>
-            <a class="nav-item nav-link badge-secondary" href="pagina2.html">Pagina 2</a>
-            <a class="nav-item nav-link badge-secondary" href="pagina2.html">Pagina 3</a>
-          </div>
-        </nav>
-  </div> 
+  <div class="container-fluid bg-primary">
+    <nav class="navbar navbar-toggleable-md navbar-expand-lg navbar-dark container">
+    <!-- <a class="navbar-brand" href="#"></a> -->
+    <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse font-weight-bold" id="navbarNavDropdown">
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="nav-link active " href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown ">
+              <a class="nav-link " href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Temario
+              </a>
+              <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Historia</a>
+                <a class="dropdown-item" href="#">HTML</a>
+                <a class="dropdown-item" href="#">Editores de Codigo</a>
+                <a class="dropdown-item" href="#">CMS</a>
+                
+              </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+  </nav>  
 </div>
-
-
-<!-- contenido muestra menu -->
+<!-- contenido pagina Index -->
 <div class="tab-content container" id="nav-tabContent">
     <div class="tab-pane fade show active" id="nav-inicio" role="tabpanel" aria-labelledby="nav-inicio-tab">
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-9 py-4 text-justify">
+                  <h3 class="text-center"><b>INTRODUCCIÓN AL DISEÑO DE SITIOS WEB</b></h3> 
+                <section class="row">
+                      <div class="col-sm-12  col-lg-6 py-4 text-justify">
+                        <h3>Historia</h3>
+                          <article class="text-justify">
+                          Un principio era sólo texto, pero a medida que ha evolucionado la tecnología, tanto los ordenadores como las redes de telecomunicaciones...
+                          </article>                     
+                        <a class="badge badge-primary" href="#" role="button">Leer mas...
+                        </a>
+                      </div>
+                      <div class="col-sm-12  col-lg-6 py-4 text-justify">
+                          <h3>HTML</h3>
+                            <article class="text-justify">
+                            (HyperText Markup Language),  lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta... 
+                            </article>                     
+                            <a class="badge badge-primary" href="#" role="button">Leer mas...
+                            </a>
+                      </div>  
+                </section>
+                <section class="row">
+                    <div class="col-sm-12  col-lg-6 py-4 text-justify">
+                        <h3>Editores de codigo</h3>
+                          <article class="text-justify">
+                              Aplicación diseñada con el fin de facilitar la creación y edición de documentos HTML o XHTML. Su complejidad puede variar desde la de un simple editor de texto plano, entornos WYSIWYG, hasta editores WYSIWYM....
+                          </article>                     
+                        <a class="badge badge-primary" href="#" role="button">Leer mas...
+                        </a>
+                      </div>
+                      <div class="col-sm-12  col-lg-6 py-4 text-justify">
+                          <h3>CMS</h3>
+                            <article class="text-justify">
+                                plataformas web que estandarizan procesos y que permiten a los usuarios que no poseen mucho conocimiento técnico en lenguaje de programación crear y maquetar contenido fácilmente para su pagina web a través de un backend o gestor de contenido... 
+                            </article>                     
+                            <a class="badge badge-primary" href="#" role="button">Leer mas...
+                            </a>
+                      </div>  
 
-                 <h1 class="text-center"><b>CÓMO ESCRIBIR CÓDIGO HTML Y CREAR PÁGINAS WEB?</b></h1> 
-
-Los requisitos principales y fundamentales, para escribir código HTML y crear páginas web, son básicamente dos: saber HTML (esto lo conseguirás siguiendo este curso) y un editor de texto (nosotros utilizaremos el Notepad++, aunque se pueden usar otros editores o programas). Hay muchos profesionales que crean sus páginas en Dreamweaver, usando Flash u otros programas o tecnologías.
-<br>
-<br>
-Esta forma de crear páginas web tiene a favor la fácil creación de éstas pero, si quieres hacer páginas web de calidad y tener un control total sobre el código generado, lo primero es saber HTML sin más.
-<br>
-<br>
-Para crear páginas web obviamente necesitas un ordenador y un navegador (Explorer, Firefox, Chrome o similar) instalado. ¿Necesitamos conexión a internet para crear páginas web? La respuesta es que no: podemos crear nuestras páginas en nuestro propio ordenador y a posteriori subirlas a un servidor remoto para que estén accesibles en internet desde cualquier parte del mundo. En este curso vamos a trabajar inicialmente en local (es decir, en nuestro propio ordenador sin necesidad de conexión a internet), y más adelante veremos cómo subir una web a un servidor. También podríamos generar una página web directamente sobre un servidor, pero por motivos de didáctica y sencillez consideramos preferible empezar trabajando en local. Una vez tengas conocimientos más avanzados, podrás hacerlo como te resulte más cómodo.           
-                </div>  
+                </section>
+                </div>
                 <aside class=" col-sm-12 col-md-6 col-lg-3 pb-5">
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item"><b><h5>Multimedia de Ayuda</h5></b></li>
-                    <li class="list-group-item">Video 1</li>
+                    <li class="list-group-item"> 10 pasos del diseño web</li>
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2VKHklZl4-I" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ACbWqvxVnl8" allowfullscreen></iframe>
                       </div>
-                    <li class="list-group-item">Video 2</li>
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/E9MGxPmWDU4" allowfullscreen></iframe>
-                    <li class="list-group-item">Video 3</li>
+                    <li class="list-group-item">Definicion de Diseño Web</li>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kHffOO7NfMI" allowfullscreen></iframe>
                   </ul>
                 </aside>
+                
             </div>                
         
     </div>
@@ -101,25 +160,27 @@ Para crear páginas web obviamente necesitas un ordenador y un navegador (Explor
     <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur corporis quae excepturi libero fugiat nemo quidem earum nulla debitis? At veniam voluptas dolorem explicabo obcaecati labore voluptates itaque dolores. Vero veritatis voluptatibus porro! Beatae, expedita. Praesentium assumenda consequatur, distinctio laboriosam illo deleniti neque facere unde placeat quam mollitia harum asperiores consectetur? Quas, exercitationem libero pariatur quo accusamus deleniti mollitia. Eveniet neque autem corporis veritatis quam eligendi quia quos, assumenda molestiae fuga aperiam ut praesentium quibusdam culpa repellat repellendus suscipit ipsa velit nostrum quod. Eligendi earum, quod, magni a dolores, odit eum unde hic alias assumenda quasi sit excepturi! At consequatur ratione ducimus ipsam animi voluptates laborum non sunt! Maiores provident quos quasi excepturi porro quaerat, odio veritatis consectetur odit, cupiditate explicabo labore commodi libero reprehenderit maxime minus consequuntur vero rerum amet culpa fuga debitis, a optio consequatur! Incidunt dignissimos ducimus est veritatis eos fuga, similique dolorem quis. Culpa voluptatibus voluptatum ipsum dolore veniam dicta, dolorum illum eum molestias odit nam natus quasi perspiciatis repellat repellendus? Modi error labore magni nemo a, repellendus voluptas at molestias quasi odit non aperiam cumque fuga laboriosam sit quae corrupti similique adipisci earum! Nulla soluta modi, nemo ab fuga accusamus, maxime nisi veritatis ratione dolores sunt animi deserunt, nesciunt deleniti cumque. Assumenda, nobis optio aperiam facere illum asperiores, animi vitae doloremque officiis delectus recusandae qui reprehenderit fuga repellendus esse dignissimos quibusdam beatae quidem odit enim veniam voluptatum praesentium quae maxime. Suscipit voluptatum voluptate velit at, voluptatem consequatur sed hic beatae esse labore laboriosam facere quae vel sequi similique eius ab rem aperiam delectus itaque pariatur. Accusantium iure ut optio quaerat adipisci deleniti nihil in beatae neque repellat veniam tenetur eaque, praesentium ullam blanditiis fugit porro. Quidem nemo nam totam magnam, debitis numquam laudantium asperiores nihil saepe atque. Ratione culpa quis porro aliquam molestias harum possimus minus, deserunt vero odio esse laboriosam, incidunt dignissimos saepe consequuntur suscipit obcaecati sint enim quo? Voluptates magni, deserunt cupiditate assumenda libero earum quas dolorem suscipit, consequatur possimus quod tempora fuga ratione porro, nemo placeat odio autem inventore. Nobis ratione amet delectus. Soluta, odit harum quia ipsum quibusdam necessitatibus dolores sed eos numquam dolorem sequi dolor sint aliquam voluptates fugit fuga tempore magni aperiam? Nobis debitis sed commodi. Velit dignissimos assumenda veritatis voluptatibus nulla officiis quaerat, nobis ipsa, deleniti vel accusamus inventore aliquid aspernatur commodi! Eum animi in quas nostrum corporis quo temporibus laborum consequuntur reprehenderit fugiat omnis corrupti placeat earum, ducimus accusantium incidunt expedita tenetur voluptates molestias necessitatibus commodi delectus ea. Voluptate eligendi ullam laborum ex excepturi suscipit cupiditate ipsa fuga perspiciatis impedit, totam ab molestiae minima deserunt, alias eos modi incidunt. Ratione accusantium laborum, sunt aliquam magnam vero delectus aspernatur fugiat cum facere deserunt fuga eius dignissimos consequuntur accusamus quis obcaecati blanditiis quia assumenda perferendis et reprehenderit nesciunt voluptates? Eos delectus minus accusamus deleniti, ipsum nihil amet exercitationem impedit dolores ex possimus at asperiores quam explicabo quaerat ratione modi! Laborum autem voluptate nobis id provident iste quisquam? Nobis doloribus dolorem veritatis deleniti? Hic reprehenderit nemo quae voluptate sit dignissimos.</p>
     </div>
   </div>
+
+
           <!-- Pie de ganina -->
-          <footer class=" card-footer bg-dark text-white text-center" >
+        <footer class=" card-footer bg-primary text-white text-center" >
             <div class="container">
-              <div class="row">
-                  <div class=" col-sm-12 col-md-6 col-lg-4"> 
-                   <a href="https://www.unad.edu.co" target="_blank"/> <img class=" img-fluid" height="auto" width="30%" src="img/logo1.png"  alt="Universidad Nacional Abierta y a Distancia"> </a>
+                  <div class="row">
+                      <div class=" col-sm-12 col-md-6 col-lg-4"> 
+                            <a href="https://www.unad.edu.co" target="_blank">
+                            <img class=" img-fluid" height="auto" width="30%" src="img/logo1.png"  alt="Universidad Nacional Abierta y a Distancia"> </a>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-4 ">
+                          <a class=" text-white credit" href="https://www.unad.edu.co/" target="_blank"> Universidad Nacional Abierta y a Distancia &copy;</a>
+                          <br><a class=" text-white credit" href=""> DISEÑOS DE SITIOS WEB </a><br>2018
+                      </div> 
+                      <div class="col-sm-12 col-md-6 col-lg-4 ">
+                            Grupo Colaborativo <br>
+                            301122_58
+                      </div> 
                   </div>
-                 <div class="col-sm-12 col-md-6 col-lg-4 ">
-                    <a class=" text-white credit" href="https://www.unad.edu.co/" target="_blank"> Universidad Nacional Abierta y a Distancia &copy;</a>
-                    <br><a class=" text-white credit" href=""> DISEÑOS DE SITIOS WEB </a><br>2018
-                 </div> 
-                 <div class="col-sm-12 col-md-6 col-lg-4 ">
-                    Grupo Colaborativo <br>
-                    301122_58
-                 </div> 
-               </div>
-              </div>
-            
-            </footer>
+            </div>
+         </footer>
 
             
 
