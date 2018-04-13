@@ -60,20 +60,19 @@
       <div class="collapse navbar-collapse font-weight-bold" id="navbarNavDropdown">
         <ul class="navbar-nav ">
           <li class="nav-item ">
-            <a class="nav-link  " href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            <a class="nav-link " href="index.html">Inicio <span class="sr-only">(current)</span></a>
           </li>
-          <li class=" nav-item nav dropdown ">
-              <a class="nav-link active" href="temario.html"   >
-                  Temario
-                </a>
-          <div class="dropdown-menu bg-primary" id="nav-tab"   > 
-            <a class="dropdown-item " id="nav-inicio-tab"  data-toggle="tab" href="temario.html" role="tab" aria-controls="nav-inicio" aria-selected="false">Historia</a>
-            <a class="dropdown-item " id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">HTML</a>
-            <a class="dropdown-item " id="nav-contact-tab" data-toggle="tab" href="#github.html" role="tab" aria-controls="nav-contact" aria-selected="True">Github</a>
-            <a class="dropdown-item " id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">CMS</a>
-              </div>
-            </li>
-            <li class="nav-item">
+          <li class="nav-item dropdown ">
+            <a class="nav-link active" href="temario.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Temario
+            </a>
+            <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="temario.html">HISTORIA</a>
+              <a class="dropdown-item" href="#">HTML</a>
+              <a class="dropdown-item" href="github.html">GITHUB</a>
+            </div>
+          </li>
+      <li class="nav-item">
             <a class="nav-link" href="indexautores.html">Autores</a>
           </li>
         </ul>
